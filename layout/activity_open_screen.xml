@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".openScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.497"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.093">
+
+                <Button
+                    android:id="@+id/buttonMonday"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+
+                    android:text="monday"
+                    android:onClick="monday"
+
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/buttonTuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="115dp"
+
+                    android:text="tuesday"
+
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/buttonWednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="230dp"
+
+                    android:text="wednesday"
+
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/buttonThursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="345dp"
+
+                    android:text="thursday"
+
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/buttonFriday"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="460dp"
+
+                    android:text="friday"
+
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/buttonSaturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="575dp"
+
+                    android:text="saturday"
+
+                    android:textSize="18dp" />
+
+            </android.support.v7.widget.CardView>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
