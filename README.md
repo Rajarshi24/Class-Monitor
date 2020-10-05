@@ -1,6 +1,6 @@
 # Class-Monitor
 Wifi Enabled Attendance App
-In this project i specially tried to make an application to help the teachers of India so that they can take attendance of students when the students just turn on their wifi for a mere of few seconds, and the MAC adresses of all the students who were present in the class will be saved in our database, as simple as that.
+In this project I exceptionally attempted to cause an application to help the teachers of India so they to can gauge participation of students when the students simply turn on their Wifi for a simple of few moments, and the MAC locations of the apparent multitude of students who were available in the class will be spared in our information base, as straightforward as that.
 
 But, there are are many issues in my code.  
 1) I didn't implemented a working database.  
